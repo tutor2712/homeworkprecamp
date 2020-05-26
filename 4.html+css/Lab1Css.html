@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #66ffff;
+           
+        }
+        .box1{
+            color: #009999;
+            
+            border: 5px solid #009999;
+            
+            
+        }
+        .box2{
+            color: #009999;
+            margin: 25px auto auto auto;
+            border: 5px solid #009999; 
+        }
+        .box3{
+            color: #009999;
+            margin: 25px auto auto auto;
+            border: 5px solid #009999; 
+        }
+        .box4{
+            color: #009999;
+            margin: 25px auto auto auto;
+            border: 5px solid #009999; 
+        }
+        h1,p{
+            text-align: center;
+         }
+         .tooltip{
+           
+          display: inline-block;
+          position: relative;
+          border-bottom: 1px solid black;
+            
+            
+         }
+           .tooltip2{
+            
+            width: 150px;
+            background-color: white;
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            top: -5px;
+            left: 105%;
+            
+         }
+         .tooltip:hover .tooltip2 {
+         visibility: visible;
+          }
+         a{
+            color: black;
+           float: center;
+          padding: 8px 16px;
+          text-decoration: none;
+         }
+         ul{
+            list-style-type: none;
+            
+         }
+         .dropdown {
+        position: relative;
+         display: inline-block;
+             }
+         .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            z-index: 1;
+         }
+         .dropdown:hover .dropdown-content {
+         display: block;
+        }
+
+
+    </style>
+</head>
+<body style="text-align:center;">
+    <div class="box1" >
+       <h1> Tooltip </h1>
+       <p> เมื่อมีเม้าส์ชี้ไปตรงที่กำหนดจะมี text ที่ซ้อนไว้ขึ้นมา</p>
+       <div class="tooltip"> 
+           Hover over me
+           <span class="tooltip2">
+                   Tooltip text
+           </span>
+       </div>
+    </div>
+    <div class="box2">
+        <h1> Pagination </h1> 
+        <p> ใช้เป็นตัวลิ้งในการเชื่อมไปหน้าอื่นๆในหัวเรื่องนึงของเว็บ </p> 
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+    <div class="box3">
+      <h1> Navigation Bars </h1>
+      <p>  ใช้เป็นตัวลิ้งในการเชื่อมไปยังหัวเรื่องต่างๆของเว็บ    </p>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+    <div class = "box4">
+        <h1> Dropdown  </h1>
+        <p>  เมื่่อเลื่อนเม้าส์ไปตรงที่กำหนดจะมีกล่องDropdownขึ้นมา   </p>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLLab</title>
+    <style>
+        body {
+                
+            background-color:darkturquoise;
+            }
+        table,th,td{
+            margin: 50px auto auto auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        th {
+            text-align: center;
+            background-color: #4CAF50;
+            height: 50px;
+            color: white;
+        }
+        tr{
+            background-color: #f2f2f2;
+        }
+        h1{
+            text-align: center;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <h1> Lab HTML</h1>
+    <table>
+        <tr>
+            <th> Tag </th>
+            <th> Attribute </th>
+            <th> การใช้งาน </th>
+        </tr>
+        
+        <tr>
+            <td>  h </td>
+            <td>  global attributes เช่น id,class,style </td>
+            <td>  ใช้เพื่อกำหนดส่วนหัว HTML</td>
+            
+        </tr>
+        <tr>
+            <td>  p </td>
+            <td>  global attributes เช่น id,class,style </td>
+            <td> ใช้กำหนดย่อหน้า </td>
+            
+        </tr>
+        <tr>
+            <td> div </td>
+            <td> global attributes เช่น id,class,style  </td>
+            <td> ใช้เป็นที่เก็บขององค์ประกอบ HTML ในรูปเเบบ Block </td>
+            
+        </tr>
+        <tr>
+            <td>  img </td>
+            <td>  global attributes,alt,height,width,src,sizes,ismap,longdesc   </td>
+            <td>  ใช้สำหรับใส่รูปภาพในหน้า HTML</td>
+            
+        </tr>
+        <tr>
+            <td> a </td>
+            <td> global attributes,href,rel,type,target </td>
+            <td> ใช้กำหนดการเชื่อมโยงใช้เพื่อเชื่อมโยงจากหน้าหนึ่งไปอีกหน้าหนึ่ง</td>
+            
+        </tr>
+        <tr>
+            <td>  ul </td>
+            <td>  global attributes เช่น id,class,style </td>
+            <td>  ใช้กำหนดรายการที่ไม่มีลำดับเป็นสัญลักษณ์แสดงหัวข้อย่อย</td>
+            
+        </tr>
+        <tr>
+            <td>  ol </td>
+            <td> global attributes,reversed,start,type  </td>
+            <td> ใช้กำหนดรายการเป็นตัวเลขหรือตัวอักษร </td>
+            
+        </tr>
+        <tr>
+            <td>  table </td>
+            <td> global attributes เช่น id,class,style  </td>
+            <td> ใช้กำหนดตาราง HTML </td>
+            
+        </tr>
+        <tr>
+            <td>  form </td>
+            <td> global attributes,action,autocomplete,enctype,method,name,rel,novalidate,target  </td>
+            <td>  ใช้สำหรับสร้างฟอร์ม HTML สำหรับการป้อนข้อมูลของผู้ใช้</td>
+            
+        </tr>
+        <tr>
+            <td>  button </td>
+            <td>  global attributes,name,type,value,autofocus,disabled,form </td>
+            <td>  ใช้กำหนดปุ่มที่คลิกได้    </td>
+            
+        </tr>
+    </table>
+    
+    <table>
+        <tr>
+            <th> Tag  </th>
+            <th> ความเหมือน </th>
+            <th> ความต่าง </th>
+        </tr>
+        <tr>
+            <td> hr & br </td>
+            <td> เว้นบรรทัด </td>
+            <td>  br จะเว้นบรรทัดปกติ<br>
+                  hr จะเว้นบรรทัดเเล้วมีเส้นระหว่างบรรทัดให้ด้วย
+            </td>
+        </tr>
+        <tr>
+            <td> ul & ol </td>
+            <td> กำหนด list ต่างๆ </td>
+            <td> ul จะเป็นลัญลักษณ์ข้างหน้า list<br>
+                 ol จะเป็นตัวเลขข้างหน้า list </td>
+        </tr>
+        <tr>
+            <td> select & checkbox & radio button</td>
+            <td>  ใช้เป็ยตัวเลือกใน from</td>
+            <td>  select จะเป็นกล่องเดียวพอกดลูกศรที่มุมขวาจะมีตัวเลือกสไลด์ลงมาเพิ่ม <br>
+                 checkbox จะเป็นกล่องสี่เหลี่ยมเล็กๆหน้าข้อความไว้ให้เลือกเพียงเเค่ 1 ตัว <br>
+                 radio button จะเป็นวงกลมเล็กๆหน้าข้อความไว้ให้เลือกได้หลายตัว</td>
+        </tr>
+        <tr>
+            <td> div & span </td>
+            <td>  เป็นคอนเทนเนอร์เป็นที่เก็บขององค์ประกอบต่างๆ</td>
+            <td>  div จะเป็นของ Block level elements <br>
+                  span จะเป็นของ lnline level elements</td>
+        </tr>
+        <tr>
+            <td> script & style </td>
+            <td> ใช้กำหนดข้อมูลคำสั่ง </td>
+            <td> script กำหนดข้อมูลคำสั่งของ css<br>
+                style กำหนดข้อมูลคำสั่งของ java script</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th> input type  </th>
+            <th> การใช้งาน </th>
+            
+        </tr>
+        <tr>
+            <td> button </td>
+            <td> เป็นปุ่มกด </th>
+            
+        </tr>
+        <tr>
+            <td> checkbox  </td>
+            <td> กำหนดปุ่มตัวเลือกให้ผู้ใช้เลือกได้1ตัวหรือมากกว่า </th>
+            
+        </tr>
+        <tr>
+            <td> color  </td>
+            <td> ปุ่มไว้ใช้ในการเลือกสี </th>
+            
+        </tr>
+        <tr>
+            <td> date  </td>
+            <td> ปุ่มไว้ใช้ในการเลือกวันเดือนปี </th>
+            
+        </tr>
+        <tr>
+            <td> datetime-local  </td>
+            <td> ระบุข้อมูลของช่วงเวลา </th>
+            
+        </tr>
+        <tr>
+            <td> email  </td>
+            <td> ใช้สำหรับใส่ข้อมูลอีเมลล์ </th>
+            
+        </tr>
+        <tr>
+            <td> file  </td>
+            <td> ใช้ในการใส่ไฟล์ลงไป </th>
+            
+        </tr>
+        <tr>
+            <td> hidden  </td>
+            <td> ใช้ซ้อนข้อมูลให้มองไม่เห็น </th>
+            
+        </tr>
+        <tr>
+            <td> image  </td>
+            <td> ใช้ในการเเสดงภาพ </th>
+            
+        </tr>
+        <tr>
+            <td> month  </td>
+            <td> ใช้ในการเลือกเดือนเเละปี </th>
+            
+        </tr>
+        <tr>
+            <td> number  </td>
+            <td> กำหนดฟิลด์อินพุตเป็นตัวเลขเเละตั้งข้อกำหนดได้ </th>
+            
+        </tr>
+        <tr>
+            <td> password  </td>
+            <td> ใช้ในการใส่ password โดยจะไม่เเสดงเป็นเลข </th>
+            
+        </tr>
+        <tr>
+            <td> radio  </td>
+            <td> กำหนดปุ่มตัวเลือกให้ผู้ใช้เลือกหนึ่งตัวเลือก </th>
+            
+        </tr>
+        <tr>
+            <td> range  </td>
+            <td> ป้อนขอมูลตัวเลขในรูปแบบเเถบเลื่อน </th>
+            
+        </tr>
+        <tr>
+            <td> reset  </td>
+            <td> เซ็ตค่าแบบฟอร์มทั้งหมดเป็นค่าเริ่มต้น </th>
+            
+        </tr>
+        <tr>
+            <td> search  </td>
+            <td> ช่องที่ใช้ในการป้อนข้อมูลที่จะค้นหา </th>
+            
+        </tr>
+        <tr>
+            <td>submit   </td>
+            <td> ปุ่มกดยืนยัน </th>
+            
+        </tr>
+        <tr>
+            <td> tel  </td>
+            <td> ใช้สำหรับinputที่เป็นหมายเลขโทรศัพท์ </th>
+            
+        </tr>
+        <tr>
+            <td> text </td>
+            <td> ใช้ใส่ข้อมูลตัวอักษร </th>
+            
+        </tr>
+        <tr>
+            <td> time  </td>
+            <td> ใช้ในการเลือกเวลา </th>
+            
+        </tr>
+        <tr>
+            <td> url  </td>
+            <td> ใช้ใส่ข้อมูล web address </th>
+            
+        </tr>
+        <tr>
+            <td> week </td>
+            <td> ใช้ในการเลือกสัปดาห์และปี </th>
+            
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th> Tag  </th>
+            <th> ผลลัพธ์ </th>
+            <th> คำอธิบาย </th>
+        </tr>
+        <tr>
+            <td> strong  </td>
+            <td> <strong>Ter</strong> </td>
+            <td> ทำให้ตัวอักษรหนา </td>
+        </tr>
+        <tr>
+            <td> label  </td>
+            <td> <label>Ter</label> </td>
+            <td> ใช้กำหนดป้ายชื่อให้กับ ช่องรับข้อมูลอยู่ที่หน้าform </td>
+        </tr>
+        <tr>
+            <td> del  </td>
+            <td> <del> Ter</del> </td>
+            <td> ทำให้มีขีดทับที่กลางตัวอักษร </td>
+        </tr>
+        <tr>
+            <td>  b </td>
+            <td> <b>Ter</b> </td>
+            <td> ทำให้ตัวอักษรหนา </td>
+        </tr>
+        <tr>
+            <td> em </td>
+            <td> <em> Ter</em> </td>
+            <td> ทำให้ตัวอักษรเอียง </td>
+        </tr>
+        <tr>
+            <td> mark  </td>
+            <td> <mark> Ter</mark> </td>
+            <td> ไฮไลท์สีที่ตัวอักษร </td>
+        </tr>
+        <tr>
+            <td> i </td>
+            <td> <i>Ter</i> </td>
+            <td> ทำให้ตัวอักษรเอียง</td>
+        </tr>
+        <tr>
+            <td> sub </td>
+            <td> <sub>Ter</sub> </td>
+            <td> ตัวอักษรจะห้อยข้างล้าง</td>
+        </tr>
+        <tr>
+            <td> sup</td>
+            <td> <sup>Ter</sup> </td>
+            <td> ตัวอักษรจะห้อยข้างบน</td>
+        </tr>
+
+    </table>
+</body>
+</html>
